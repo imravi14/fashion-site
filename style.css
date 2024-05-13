@@ -1,0 +1,423 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+/* reuseabal */
+.wrapper {
+  padding: 20px 40px;
+}
+/* navigation bar start */
+.nav {
+  background-color: black;
+  display: flex;
+}
+
+#social-links a {
+  color: white;
+  font-size: 15px;
+  padding: 12px 10px;
+}
+#social-links a i {
+  padding: 12px 5px;
+}
+#social-links a:hover {
+  color: black;
+  background-color: white;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Oswald";
+}
+#search {
+  position: absolute;
+  right: 1px;
+}
+#search a {
+  color: white;
+  font-size: 15px;
+  padding: 12px 5px;
+}
+#search a:hover {
+  color: black;
+  background-color: white;
+}
+#search a i {
+  padding: 12px 5px;
+}
+/* navigation end */
+
+/* banner part start */
+#banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 25vh;
+}
+#banner h1 {
+  font-size: 40px;
+  letter-spacing: -1px;
+  margin: 0 0 5px 0;
+}
+#banner h2 {
+  font-size: 15px;
+}
+#banner h2 span {
+  background-color: black;
+  color: white;
+  padding: 5px;
+}
+/*Banner End*/
+
+/*Main*/
+#main {
+  height: 130vh;
+  background-image: url("images/jane.jpeg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: baseline;
+}
+#main h2 {
+  font-size: 40px;
+  margin: 15px 20px;
+}
+#main h3 {
+  font-size: 60px;
+  margin: 15px 20px;
+}
+#main h4 {
+  color: black;
+  background-color: grey;
+  width: 100px;
+  padding: 10px;
+}
+/*Main-End*/
+
+/*content*/
+#content {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(234, 229, 229);
+}
+
+/*Left Start*/
+#left {
+  width: 70%;
+}
+#big-card-1 {
+  background-color: white;
+}
+
+#big-img img {
+  width: 100%;
+}
+#big-img p {
+  font-size: 20px;
+}
+#big-img p span {
+  color: gray;
+}
+#para1 {
+  margin: 20px 0;
+}
+#left #big-card-1 #headings {
+  text-align: center;
+  padding: 1px 0;
+  margin-top: 38px;
+}
+#headings h2 {
+  margin: 20px 0;
+}
+#headings h3 span {
+  color: gray;
+}
+.cta-btn {
+  padding: 10px 15px;
+  border: 1px solid gray;
+  background-color: white;
+  font-weight: bold;
+  font-size: 14px;
+  margin: 40px 0 0 0;
+}
+.cta-btn:hover {
+  background-color: rgba(199, 196, 196, 0.584);
+}
+.cta-btn-alt {
+  padding: 10px 15px;
+  border: 1px solid gray;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  position: relative;
+  left: 700px;
+}
+.cta-btn-alt span {
+  background-color: white;
+  color: black;
+  padding: 5px 10px;
+}
+.cta-btn-alt:hover {
+  background-color: gray;
+  color: black;
+}
+hr {
+  color: gray;
+}
+#img-cnt {
+  display: flex;
+  justify-content: space-evenly;
+}
+#img-bx {
+  width: 10%;
+}
+
+#cnt-bx {
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+#cnt-bx {
+  font-size: 25px;
+}
+#cnt-bx h5 span {
+  color: gray;
+}
+#img-bx img {
+  width: 100%;
+}
+/*Left End*/
+
+/*Right*/
+#right {
+  width: 30%;
+  padding: 40px;
+}
+#img-cd img {
+  width: 100%;
+}
+#card-1 {
+  background-color: black;
+  color: white;
+}
+#cnt-cd h3 {
+  font-size: 23px;
+  margin: 10px 12px;
+}
+#cnt-cd p {
+  font-size: 16px;
+  padding: 10px 12px;
+}
+#popular {
+  margin-top: 40px;
+}
+#popular-heading {
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+#bx {
+  display: flex;
+  justify-content: space-evenly;
+  border-bottom: 1px solid gray;
+  padding: 10px;
+  background-color: white;
+}
+#bx:hover {
+  background-color: rgb(208, 203, 203);
+}
+#bx-img {
+  width: 10%;
+}
+#bx-ct {
+  width: 80%;
+}
+#bx-img img {
+  width: 100%;
+}
+#advertise {
+  margin-top: 40px;
+}
+.ad-cont {
+  padding: 10px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#ad {
+  background-color: rgb(234, 229, 229);
+  padding: 120px 140px;
+  width: 100%;
+}
+/*End*/
+#tags {
+  margin-top: 40px;
+  background-color: white;
+}
+#tags-cnt {
+  padding: 40px;
+}
+#tags-cnt p span {
+  background-color: rgb(234, 229, 229);
+  margin: 9px 4px 5px 6px;
+  padding: 2px;
+}
+#inspiration {
+  margin-top: 40px;
+  background-color: white;
+}
+.inps-cnt {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  padding: 10px;
+}
+#insp-cnt-img {
+  display: flex;
+  justify-content: space-evenly;
+}
+#insp-cnt-img {
+  widows: 100%;
+}
+#insp-img {
+  width: 45%;
+}
+#insp-img img {
+  width: 100%;
+}
+#follow {
+  margin-top: 40px;
+  background-color: white;
+}
+#social-icon {
+  padding: 20px;
+}
+#social-icon a i {
+  color: black;
+  font-size: 20px;
+}
+#social-icon a i:hover {
+  color: gray;
+}
+#subscribe {
+  margin-top: 40px;
+  background-color: white;
+}
+#subscribe-cnt {
+  padding: 20px;
+}
+#subscribe-cnt p {
+  font-size: 20px;
+}
+#subscribe-cnt input {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px 0;
+}
+#subscribe-cnt input[placeholder] {
+  font-size: 15px;
+}
+#subscribe-cnt button {
+  width: 100%;
+  font-size: 20px;
+  padding: 10px 0;
+  background-color: red;
+  border: none;
+  outline: none;
+  color: white;
+}
+#subscribe-cnt button:hover {
+  background-color: rgba(199, 196, 196, 0.584);
+  color: black;
+}
+/*Footer*/
+footer {
+  background-color: gray;
+  padding: 40px;
+}
+footer i {
+  margin: 0 10px;
+}
+footer .cta-btn-alt {
+  left: 0px;
+  padding: 20px 40px;
+}
+footer .cta-btn-alt:hover {
+  background-color: black;
+  color: white;
+}
+/*footerend*/
+
+/*Phone Responsive*/
+@media only screen and (min-width: 320px) and (max-width: 1068px) {
+  /*Navigation*/
+  .nav {
+    display: none;
+  }
+  #banner {
+    width: 100%;
+  }
+  /*Navigation End*/
+
+  /*Main*/
+  #main {
+    height: 35vh;
+    width: 63.5vh;
+  }
+  #main h3 {
+    display: none;
+  }
+  #content {
+    flex-direction: column;
+  }
+  #content {
+    width: 100%;
+  }
+  #left {
+    width: 100%;
+  }
+  #big-card-1 {
+    width: 100%;
+  }
+  #right {
+    width: 100%;
+    padding: 0;
+  }
+  #card1 {
+    width: 100%;
+  }
+  footer {
+    width: 100%;
+  }
+  #img-cnt {
+    flex-direction: column;
+    width: 80%;
+    padding: 20px;
+  }
+  #img-bx {
+    width: 100%;
+  }
+  #img-bx img {
+    width: 60%;
+  }
+  #cnt-bx {
+    width: 100%;
+  }
+  .cta-btn-alt {
+    left: 70px;
+  }
+  #card-1 {
+    margin-top: 40px;
+  }
+  /*Main End*/
+}
